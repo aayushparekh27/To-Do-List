@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="todo-container">
+        <header>
+            <h1>To do List</h1>
+            <button id="theme-toggle">🌙</button>
+        </header>
+        <div class="todo-form">
+            <input type="text" id="task-input" placeholder="Enter a task">
+            <button id="add-task-btn">Add Task</button>
+        </div>
+        <div class="task-counter">
+            <p>Tasks remaining: <span id="task-count">0</span></p>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
